@@ -14,6 +14,12 @@ const nextConfig = {
         port: "8000",
         pathname: "/media/**",
       },
+      {
+        protocol: 'https',
+        hostname: 'sab-backend-bkgb.onrender.com',
+        port: '',
+        pathname: '/media/**', 
+      },
     ],
   },
 };
