@@ -1,7 +1,16 @@
 import React from "react";
-import { PREVIOUS, WORKSHOPS } from "@/lib/workshops";
 import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+// Before
+import { WORKSHOPS, PREVIOUS } from "@/lib/workshops";
+
+// After
+import { useWorkshops, usePreviousWorkshops } from "@/lib/workshops";
+
+const WORKSHOPS = useWorkshops();
+const PREVIOUS = usePreviousWorkshops();
+
 
 const page = () => {
   return (
