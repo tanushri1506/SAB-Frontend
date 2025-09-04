@@ -10,7 +10,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/#council", label: "Executive Committee" },
   { href: "/#events", label: "Events" },
-  { href: "#", label: "Students" },
+  { href: "/students", label: "Students" },
   { href: "/pal", label: "PAL Classes" },
   { href: "/language", label: "Language Cell" },
   { href: "/workshops", label: "Workshop Cell" },
