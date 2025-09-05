@@ -203,7 +203,7 @@
 import { Card } from "@/components/ui/card";
 import { LinkedinIcon, Mail, Phone } from "lucide-react";
 import React from "react";
-import { useDPPC, useCPPC, useSPPC, useDoctoralRep } from "@/lib/usePhdCouncil";
+import { useDPPC, useCPPC, useSPPC, useDoctoralRep } from "@/lib/phd-council";
 
 const Page = () => {
   const { DPPC, loading: loadingDPPC } = useDPPC();
