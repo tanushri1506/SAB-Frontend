@@ -30,21 +30,16 @@ const Footer = () => {
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://intranet.iitg.ac.in/acad/trans_certificate_issue.php">
-                Transcript/Certificates
-              </a>
-            </li>
-            <li className="hover:text-red-800">
               <a href="https://www.iitg.ac.in/acad/extra_pdf/No_Migration_Certificate.pdf">
                 No Issuance of Migration Certificate
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/aer/all_country">MoUs</a>
+              <a href="https://www.iitg.ac.in/aer/mou.php">MoUs</a>
             </li>
             <li className="hover:text-red-800">
               <a href="https://iitg.ac.in/acad/admission/imp_info/fee.php">
-                FEE Structure for JAN-MAY 2025
+                Fee Structure
               </a>
             </li>
             <li className="hover:text-red-800">
@@ -93,26 +88,11 @@ const Footer = () => {
           <h2 className="text-xl font-semibold mb-3">Forms</h2>
           <ul className="space-y-1.5 text-sm text-gray-600">
             <li className="hover:text-red-800">
-              <a href="https://iitg.ac.in/acad/academic_forms.php">
+              <a href="https://iitg.ac.in/acad/forms.php/">
                 General Forms
               </a>
             </li>
-            <li className="hover:text-red-800">
-              <a href="https://iitg.ac.in/acad/BTech_BDes_forms.php">
-                B.Tech | B.Des Forms
-              </a>
-            </li>
-            <li className="hover:text-red-800">
-              <a href="https://iitg.ac.in/acad/MTech_MDes_forms.php">
-                M.Tech | M.Des Forms
-              </a>
-            </li>
-            <li className="hover:text-red-800">
-              <a href="https://iitg.ac.in/acad/MA_forms.php">MA Forms</a>
-            </li>
-            <li className="hover:text-red-800">
-              <a href="https://iitg.ac.in/acad/Phd_forms.php">PhD Forms</a>
-            </li>
+            
             <li className="hover:text-red-800">
               <a href="https://intranet.iitg.ac.in/acad/trans_certificate_issue.php">
                 Transcript/Certificates
@@ -130,33 +110,29 @@ const Footer = () => {
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/acad/academic_calender.php">
+              <a href="https://iitg.ac.in/acad/academic_calendar.php">
                 Academic Calendar
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/acad/courses_syllabee.php">
-                Courses & Syllabi
+              <a href="https://iitg.ac.in/acad/offered_courses.php">
+                Offered Courses
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/acad/minor_courses.php">
-                Minor Courses & Syllabi
+              <a href="https://iitg.ac.in/acad/programmes/bachelors.php/">
+                Undergraduate Minor Programmes
               </a>
             </li>
             <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/acad/classtt/">
+              <a href="https://iitg.ac.in/acad/time_table.php">
                 Class Time Table
               </a>
             </li>
             <li className="hover:text-red-800">
               <a href="https://iitg.irins.org/">Faculty Profiles</a>
             </li>
-            <li className="hover:text-red-800">
-              <a href="https://www.iitg.ac.in/acad/resource_gen.php">
-                Resource Generation for Academic and its Amenities
-              </a>
-            </li>
+            
           </ul>
         </div>
       </div>
