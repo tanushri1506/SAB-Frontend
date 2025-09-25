@@ -18,7 +18,6 @@ const Page = () => {
   const [BTECH_REP, setBTechRep] = useState([]);
   const [BDES_REP, setBDesRep] = useState([]);
 
-  // Fetch data whenever selectedTenure changes
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
@@ -59,9 +58,14 @@ const Page = () => {
           }))
         );
 
+        const currentTenure = "2025-26";
+
         setBTechRep(
           councilData
-            .filter((m) => m.post?.includes("B.Tech Representative"))
+            .filter((m) => 
+              m.post?.includes("B.Tech Representative") &&
+              m.tenure === currentTenure
+            )   
             .map((m) => ({
               name: m.name || "",
               post: m.post || "",
@@ -82,7 +86,10 @@ const Page = () => {
 
         setBDesRep(
           councilData
-            .filter((m) => m.post?.includes("B.Des Representative"))
+            .filter((m) => 
+              m.post?.includes("B.Des Representative") &&
+              m.tenure === currentTenure
+            )
             .map((m) => ({
               name: m.name || "",
               post: m.post || "",
@@ -259,3 +266,4 @@ const Page = () => {
 };
 
 export default Page;
+
