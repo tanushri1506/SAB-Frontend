@@ -43,7 +43,7 @@ export default function PastCouncil() {
 
         {/* Council Grid */}
         <div className="mt-12 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3 mx-auto">
-          {council.map(({ id, name, post, photo, phone, email, linkedin }) => (
+          {council.map(({ id, name, post, photo, email, linkedin }) => (
             <Card
               key={id}
               className="flex flex-col items-center p-6 shadow-md hover:shadow-2xl"
@@ -61,11 +61,7 @@ export default function PastCouncil() {
               <p className="text-gray-600">{post}</p>
 
               <div className="flex items-center justify-center space-x-6 mt-2">
-                {phone && (
-                  <a href={`tel:${phone}`} aria-label="Phone">
-                    <Phone className="h-5 w-5 text-gray-700 hover:text-blue-500" />
-                  </a>
-                )}
+                
                 {email && (
                   <a href={`mailto:${email}`} aria-label="Email">
                     <Mail className="h-5 w-5 text-gray-700 hover:text-red-500" />
