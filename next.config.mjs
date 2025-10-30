@@ -2,6 +2,12 @@
 const nextConfig = {
   images: {
     remotePatterns: [
+      // {
+      //   protocol: "https",
+      //   hostname: "127.0.0.1",
+      //   port: "8000",
+      //   pathname: "/media/**",
+      // },
       {
         protocol: "http",
         hostname: "127.0.0.1",
@@ -14,22 +20,16 @@ const nextConfig = {
         port: "8000",
         pathname: "/media/**",
       },
-      {
-        protocol: 'https',
-        hostname: 'sab-backend-bkgb.onrender.com',
-        port: '',
-        pathname: '/media/**', 
-      },
-      {
-        protocol: "https",
-        hostname: "res.cloudinary.com",
-        pathname: "/**", 
-      },
-      {
-        protocol: "http",
-        hostname: "res.cloudinary.com",
-        pathname: "/**", 
-      },
+      // {
+      //   protocol: "https",
+      //   hostname: "res.cloudinary.com",
+      //   pathname: "/**", 
+      // },
+      // {
+      //   protocol: "http",
+      //   hostname: "res.cloudinary.com",
+      //   pathname: "/**", 
+      // },
     ],
   },
 };
